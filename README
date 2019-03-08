@@ -1,0 +1,19 @@
+William Wood cssc1167, Nadim Tahmass cssc1158	
+CS570, Summer 2018
+Assignment #1, Multithread File Writer
+README file
+
+All files are in the cssc1167 a1 directory and uploaded to blackboard through William Wood.
+
+Files Included: main.c, threadPlayer.c, cardThread.h, makefile, README.
+Compile instructions: use makefile by using make command or gcc -pthread -o player threadPlayer.c main.c -I.
+Operating Instructions: Run using ./player , no additional command line arguments or required inputs.
+Significant design decisions: We decided to hard code all of the different suits.
+							  This not the best practice but it produces the results requested.
+
+Extra features/algorithms/functionality: No extra features/algorithms/functionality were created or used.
+Known Deficiencies or bugs: No bugs or deficiencies known
+
+Lessons Learned: Learned how to properly create threads and how to use semaphores when using threads to
+				 interact with a file. This assignment also taught us what a makefile is and how to create
+                 one. 
